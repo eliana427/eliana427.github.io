@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "eliana427.github.io"
+  title: "Eliana Shandalov"
   navbar:
     left:
       - href: index.qmd

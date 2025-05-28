@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Eliana Shandalov"
+  image: /Users/elianashandalov/images/selfie.png
   navbar:
     left:
       - href: index.qmd
@@ -17,6 +18,17 @@ format:
     toc: true
 
 editor: visual
+about:
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: www.linkedin.com/in/eliana-shandalov-b223b5338
+    - text: GitHub
+      href: https://github.com/eliana427/eliana427.github.io.git
+    - text: Email
+      href: mailto:elianabshandalov@gmail.com
 
 
 

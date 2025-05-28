@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "eliana427.github.io"
@@ -16,4 +17,6 @@ format:
     toc: true
 
 editor: visual
+
+
 

@@ -2,9 +2,30 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\nimg src=“./concert.jpeg”/\n\n1 + 1\n\n[1] 2"
+    "text": "Traveling\nI love to travel.\n\n\nConcerts\nI love concerts.\n\n\nFriends\nI love my friends."
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Words\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Resume"
+  },
+  {
+    "objectID": "me.html",
+    "href": "me.html",
+    "title": "Words I Live By",
+    "section": "",
+    "text": "Everything happens for a reason\nI believe that everything happens for a reason.\n\n\nOnly take to heart what is in my control\nThere is no reason to be upset about things beyond my own control\n\n\nMaybe they’re just having a bad day\nIf someone is mean to you, they might have something going on in their own life that caused that and it isn’t personal.\n\n\nEmbarrassment is a choice\nYou might as well laugh at yourself instead of feeling embarrassed."
   },
   {
     "objectID": "index.html",

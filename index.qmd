@@ -3,8 +3,8 @@ title: "Eliana Shandalov"
 image: selfie.png
 toc: false
 about: 
-  template: jolla
-  image-shape: round
+  template: trestles
+  image-shape: rectangle
   image-width: 17em
   links:
     - text: LinkedIn

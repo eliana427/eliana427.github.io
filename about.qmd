@@ -1,17 +1,29 @@
 ---
-title: "About"
-image: snorkel.jpeg
+title: "About Me"
+subtitle: "What Makes Me Happy"
+title-block-banner: true
 toc: false
-about: 
-  template: jolla
-  image-shape: rectangle
-  image-width: 17em
 ---
 
-About this site
+# Traveling
 
-img src="./concert.jpeg"/
+I love to travel.
+
+# Concerts
+
+I love concerts.
+
+# Friends
+
+I love my friends.
+
+::: {layout-ncol=3}
+![Snorkeling](snorkel.jpeg){width="70%"}
+![Concerts](concert.jpeg){width="70%"}
+![Friends](friends1.jpeg){width="70%"}
+:::
+
 
 ```{r}
-1 + 1
+
 ```

@@ -10,7 +10,7 @@ about:
     - text: LinkedIn
       href: https://www.linkedin.com/in/eliana-shandalov-b223b5338
     - text: GitHub
-      href: https://eliana427.github.io/
+      href: https://github.com/eliana427/eliana427.github.io.git
     - text: Email
       href: mailto:elianashandalov@ucsb.edu
 ---

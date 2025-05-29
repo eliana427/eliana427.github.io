@@ -1,8 +1,16 @@
 ---
 title: "About"
+image: snorkel.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: rectangle
+  image-width: 17em
 ---
 
 About this site
+
+img src="./concert.jpeg"/
 
 ```{r}
 1 + 1

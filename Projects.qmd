@@ -1,5 +1,5 @@
 ---
-title: "Portfolio"
+title: "Projects"
 title-block-banner: true
 listing: 
   contents: "projects" # all Quarto docs in the `portfolio` directory will be included on your listing page
@@ -15,4 +15,3 @@ toc: false
 Words 
 </p>
 :::
----

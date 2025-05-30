@@ -3,7 +3,6 @@ title: "Resume"
 format: html
 ---
 
-
-::: {layout-ncol=3}
-![Resume](Shandalov-Eliana-Resume.jpg.jpg){width="70%"}
+::: {layout-ncol="3"}
+![Resume](Shandalov-Eliana-Resume.jpg){width="70%"}
 :::

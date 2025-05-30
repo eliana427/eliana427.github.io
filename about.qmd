@@ -17,12 +17,7 @@ I love concerts.
 
 I love my friends.
 
-::: {layout-ncol=3}
-![Snorkeling](snorkel.jpeg){width="70%"}
-![Concerts](concert.jpeg){width="70%"}
-![Friends](friends1.jpeg){width="70%"}
-:::
-
+![Snorkeling](snorkel.jpeg) ![Concerts](concert.jpeg) ![Friends](friends1.jpeg)
 
 ```{r}
 

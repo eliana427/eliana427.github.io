@@ -1,11 +1,11 @@
 ---
-title: "About Me"
-subtitle: "What Makes Me Happy"
-title-block-banner: true
-toc: false
+title: "About Me" # title of page and what shoes in navbar
+subtitle: "What Makes Me Happy" # subtitle
+title-block-banner: true # title will assume this format
+toc: false # no table of contents
 format:
   html:
-    code-fold: false
+    code-fold: false # don't show code for interactive graphic on website, only show output
     echo: false
     warning: false
     message: false
@@ -18,10 +18,12 @@ I love to travel. I have been able to go to a couple places in Europe with my fa
 ![Snorkeling](snorkel.jpeg){width="30%"} ![San Gerardo, Costa Rica](waterfall.jpg){width="15%"} ![Cuajiniquil, Costa Rica](boat.jpg){width="25%"} ![Budapest](budapest.jpg){width="14%"} ![Camel](camel.jpg){width="32%"} ![Harry Potter Studios](horse.jpg){width="18%"} ![Vienna](vienna.jpg){width="18%"} ![Zip Lining in Costa Rica](ziplinecr.jpg){width="14%"}
 
 ```{r}
-library(leaflet)
+# creating an interactive map
 
-visited_places <- data.frame(
-  place = c(
+library(leaflet) # use leaflet package
+
+visited_places <- data.frame( # inputting data frame directly into R studio
+  place = c( # list places
     "Budapest, Hungary", "Vienna, Austria", "London, England", 
     "Ios, Greece", "Athens, Greece", "Tel Aviv, Israel", 
     "Sicily, Italy", "Palermo, Italy", "Rome, Italy",
@@ -33,7 +35,7 @@ visited_places <- data.frame(
     "San Gerardo, Costa Rica", "Puerto Jiménez, Costa Rica",
     "Santa Rosa, Costa Rica", "Pitilla, Costa Rica"
   ),
-  lng = c(
+  lng = c( # listing on longitudes of places
     19.0402, 16.3738, -0.1276, 
     25.2830, 23.7275, 34.7818, 
     14.0154, 13.3615, 12.4964,  
@@ -43,7 +45,7 @@ visited_places <- data.frame(
     -111.9507, -105.7821, -86.9023, -86.5804, -81.5158, -82.9001, 
     -81.1637, -79.0193, -78.6569, -76.6413, -74.0060, -84.8, -85.7073, -83.7833, -83.3046, -85.6152, -85.4685
   ),
-  lat = c(
+  lat = c( # listing all latitudes of places
     47.4979, 48.2082, 51.5072, 
     36.7167, 37.9838, 32.0853, 
     37.5999, 38.1157, 41.9028,  
@@ -56,15 +58,15 @@ visited_places <- data.frame(
 )
 
 # Create interactive map with markers
-m <- leaflet() %>%
-  addTiles() %>%
-  setView(lng = 0, lat = 20, zoom = 2)
+m <- leaflet() %>% # map will be called m, from leaflet package
+  addTiles() %>% # the information related to the pins
+  setView(lng = 0, lat = 20, zoom = 2) # where the initial visual on the graphic is located
 
 # Add clickable pins with popups
-m <- m %>% addMarkers(
-  lng = visited_places$lng,
+m <- m %>% addMarkers( # add pins to the maps
+  lng = visited_places$lng, # pins are based on listed latitude and longitude
   lat = visited_places$lat,
-  popup = paste0("I visited <b>", visited_places$place, "</b>!")
+  popup = paste0("I visited <b>", visited_places$place, "</b>!") # message included in popup
 )
 
 # Show the map

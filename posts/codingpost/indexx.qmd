@@ -1,0 +1,31 @@
+---
+title: "Coding Sample"
+format: html 
+description: "This is a part of my code from my midterm in my ENVS 163DS class, where I recreated a graph."
+author:
+  - name: Eliana Shandalov
+    url: https://eliana427.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Student at UCSB, Environmental Studies program
+    affiliation-url: https://ucsb-meds.github.io/ 
+date: 06-01-2025
+categories: [Quarto, R, Coding] # self-defined categories
+citation: 
+  url: https://eliana427.github.io/posts/codingpost/ 
+image: midterm.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+# Coding Sample
+
+## Code
+
+![](midterm.png)
+
+## Output
+
+![](output.png)
+
+## Description
+
+In this chunk of code, I was recreating a graph from an example. The graph represents the total monthly rain fall (represented on the x-axis) categorized by year in Isla Vista. My code begins with referencing a cleaned data set, and I created a line graph using ggplot where I specified what variables I wanted on each of my axes, how I wanted my data to be grouped, and that I wanted each group to be a different color. I then changed the colors of each of the lines from the default to match the example image. I found the exact colors to use by searching up an R studio list of colors. I then edited the names of my axes and legend to make the graph clear, and added a title. To make the graph look more organized and pleasing to the eye, I removed the background noise including grid lines and axes ticks. I changed the placement of the legend to be placed inside the plot, and I changed the size and alignment of the title.

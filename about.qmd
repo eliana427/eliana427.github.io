@@ -3,6 +3,12 @@ title: "About Me"
 subtitle: "What Makes Me Happy"
 title-block-banner: true
 toc: false
+format:
+  html:
+    code-fold: false
+    echo: false
+    warning: false
+    message: false
 ---
 
 # Traveling
@@ -10,6 +16,61 @@ toc: false
 I love to travel. I have been able to go to a couple places in Europe with my family (camel photo from Israel), and my best friend and I went to Budapest (architecture photo with water), Vienna (architecture photo), Ios (Island in Greece), and London (horse statue photo) last summer. She is an international student from London, so I got to see where she's from, which was very special. We plan on backpacking through Southeast Asia after we graduate college. I got to study abroad in Costa Rica during fall quarter (waterfall and water scenery photo), and had been there previously for spring break with some friends during the second year of college (zip lining photo), and this year for spring break I went to Hawaii (snorkeling photo), where one of my housemates lives.
 
 ![Snorkeling](snorkel.jpeg){width="30%"} ![San Gerardo, Costa Rica](waterfall.jpg){width="15%"} ![Cuajiniquil, Costa Rica](boat.jpg){width="25%"} ![Budapest](budapest.jpg){width="14%"} ![Camel](camel.jpg){width="32%"} ![Harry Potter Studios](horse.jpg){width="18%"} ![Vienna](vienna.jpg){width="18%"} ![Zip Lining in Costa Rica](ziplinecr.jpg){width="14%"}
+
+```{r}
+library(leaflet)
+
+visited_places <- data.frame(
+  place = c(
+    "Budapest, Hungary", "Vienna, Austria", "London, England", 
+    "Ios, Greece", "Athens, Greece", "Tel Aviv, Israel", 
+    "Sicily, Italy", "Palermo, Italy", "Rome, Italy",
+    "Paris, France", "Brussels, Belgium", "Netherlands",
+    "California", "Hawaii", "Oregon", "Washington", 
+    "Alaska", "Idaho", "Nevada", "Texas", "New Mexico", "Arizona", 
+    "Utah", "Colorado", "Alabama", "Tennessee", "Florida", "Georgia", 
+    "South Carolina", "North Carolina", "Virginia", "Maryland", "New York", "Monteverde, Costa Rica", "Cuajiniquil, Costa Rica", 
+    "San Gerardo, Costa Rica", "Puerto Jiménez, Costa Rica",
+    "Santa Rosa, Costa Rica", "Pitilla, Costa Rica"
+  ),
+  lng = c(
+    19.0402, 16.3738, -0.1276, 
+    25.2830, 23.7275, 34.7818, 
+    14.0154, 13.3615, 12.4964,  
+    2.3522, 4.3517, 6.8675,
+    -119.4179, -155.5828, -120.5542, -120.7401, 
+    -149.4937, -114.7420, -116.4194, -99.9018, -105.8701, -111.0937, 
+    -111.9507, -105.7821, -86.9023, -86.5804, -81.5158, -82.9001, 
+    -81.1637, -79.0193, -78.6569, -76.6413, -74.0060, -84.8, -85.7073, -83.7833, -83.3046, -85.6152, -85.4685
+  ),
+  lat = c(
+    47.4979, 48.2082, 51.5072, 
+    36.7167, 37.9838, 32.0853, 
+    37.5999, 38.1157, 41.9028,  
+    48.8566, 50.8503, 52.7100,
+    36.7783, 19.8968, 43.8041, 47.7511, 
+    61.5888, 44.0682, 38.8026, 31.9686, 34.5199, 34.0489, 
+    39.3200, 39.5501, 32.3182, 35.5175, 27.6648, 32.1656, 
+    33.8361, 35.7596, 37.4316, 39.0458, 40.7128, 10.3, 10.9224, 9.5983, 8.538, 10.7892, 10.9880
+  )
+)
+
+# Create interactive map with markers
+m <- leaflet() %>%
+  addTiles() %>%
+  setView(lng = 0, lat = 20, zoom = 2)
+
+# Add clickable pins with popups
+m <- m %>% addMarkers(
+  lng = visited_places$lng,
+  lat = visited_places$lat,
+  popup = paste0("I visited <b>", visited_places$place, "</b>!")
+)
+
+# Show the map
+m
+
+```
 
 # Concerts
 

@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Coding Sample\n\n\n\nQuarto\n\n\nR\n\n\nCoding\n\n\n\nThis is a part of my code from my midterm in my ENVS 163DS class, where I recreated a graph.\n\n\n\nEliana Shandalov\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Paper Sample\n\n\n\nQuarto\n\n\nR\n\n\nResearch\n\n\n\nThis is a part the research paper that I wrote in Costa Rica, where I studied the abundance of parasites in bat blood.\n\n\n\nEliana Shandalov\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Sample\n\n\n\nQuarto\n\n\nR\n\n\nCoding\n\n\n\nThis is a part of my code from my midterm in my ENVS 163DS class, where I recreated a graph.\n\n\n\nEliana Shandalov\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -19,6 +19,13 @@
     "title": "Words I Live By",
     "section": "",
     "text": "Everything happens for a reason\nI believe that everything happens for a reason.\n\n\nOnly take to heart what is in my control\nThere is no reason to be upset about things beyond my own control\n\n\nMaybe they’re just having a bad day\nIf someone is mean to you, they might have something going on in their own life that caused that and it isn’t personal.\n\n\nEmbarrassment is a choice\nYou might as well laugh at yourself instead of feeling embarrassed."
+  },
+  {
+    "objectID": "posts/paperpost/indexxx.html",
+    "href": "posts/paperpost/indexxx.html",
+    "title": "Research Paper Sample",
+    "section": "",
+    "text": "Research Paper - Inspiration and Summary\nWhen I was in Costa Rica, I studied the abundance of blood parasites present in bats from different research. I’m very interested in how diseases transfer from animal to human populations, which commonly happens by the way of bats because they are disease vectors. That means that they can carry the disease and spread it, but because of the unique features they evolved throughout time they themselves are not affected by the disease. Although I wasn’t able to study the transfer of diseases from animals to humans, it was very fascinating to see how bats from different areas contain more or less parasites.\nI conducted the study by capturing bats via mist netting and butterfly nets (read paper for more information). Once I caught the bats, I pricked an accessible vein on their left foot with a needle to draw a little bit of blood. I collected the blood on a slide and made a thin blood smear, and the next day in the lab used Giemsa stain to make the sample more clear to view under the microscope. For each of my 18 samples, I carefully inspected each slide and counted the number of parasites.\nView PDF in new tab\n\n\n\nCitationBibTeX citation:@online{shandalov2025,\n  author = {Shandalov, Eliana},\n  title = {Research {Paper} {Sample}},\n  date = {2025-06-01},\n  url = {https://eliana427.github.io/posts/paperpost/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nShandalov, Eliana. 2025. “Research Paper Sample.” June 1,\n2025. https://eliana427.github.io/posts/paperpost/."
   },
   {
     "objectID": "resume.html",

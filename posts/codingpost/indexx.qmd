@@ -7,12 +7,11 @@ author:
     url: https://eliana427.github.io/
     orcid: 0000-0002-5300-3075
     affiliation: Student at UCSB, Environmental Studies program
-    affiliation-url: https://ucsb-meds.github.io/ 
 date: 06-01-2025
 categories: [Quarto, R, Coding] # self-defined categories
 citation: 
   url: https://eliana427.github.io/posts/codingpost/ 
-image: midterm.png
+image: r.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 

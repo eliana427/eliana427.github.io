@@ -15,8 +15,4 @@ about:
       href: mailto:elianashandalov@ucsb.edu
 ---
 
-Brief bio.
-
-```{r}
-
-```
+Hello! My name is Eliana Shandalov, and I am a third year student as UCSB. My major is Environmental Studies (B.S.) and I am pursuing a minor in professional writing (scientific communication track). This summer, I will be interning at PG&E as the Electric Risk Management Intern. I graduated from Miramonte High School in Orinda, CA.

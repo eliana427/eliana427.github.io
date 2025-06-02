@@ -4,36 +4,37 @@ project:
 
 website:
   title: "Eliana Shandalov"
-  image: Users/elianashandalov/images/selfie.png
-  navbar:
-    title: false # override printing your website `title` (e.g. "Sam Csik" on line 6) in the top left corner of your navbar
-    logo: file/path/to/logo.jpg
-    logo-alt: "Alt text for logo"
-    left:
-      - href: index.qmd
+  favicon: "elogo.png" # icon at tope of site
+  image: Users/elianashandalov/images/selfie.png # add selfie to landing page
+  navbar: # controls navigation bar at the top
+    title: false # remove title
+    logo: "ename.png" # logo from this image
+    logo-alt: "Alt text for logo" # change where my name would be to logo thing
+    left: # navbar will be aligned on the left
+      - href: index.qmd # pages will be ordered this way
         text: Home
       - about.qmd
       - posts.qmd
       - resume.qmd
       - me.qmd
-  page-footer:
-    background: dark
-    left: Copyright 2025, Eliana Shandalov
-  favicon: file/path/to/name.jpg # NOTE: that the `favicon` is a `website` level option (not under `navbar`)
+    background: "black"  # background of navbar will be black
+    foreground: "lemonchiffon" # text color on navbar will be light yellow
+  page-footer: # add a footer to the website
+    background: dark # background of footer will be dark, other option is light
+    left: Copyright 2025, Eliana Shandalov # text of footer
 
 format:
   html:
-    theme:
-      - quartz
-      - styles.scss
-    mainfont: Montserrat
-    toc: true
+    theme: quartz # customize theme
+    css: styles.css # use this style page
+    mainfont: Montserrat # customize font
+    toc: true # show table of contents
 
 editor: visual
-about:
-  template: jolla
-  image-shape: round
-  image-width: 17em
+about: # specify aspects of about page
+  template: jolla # specifications of template on about page
+  image-shape: round # make image round
+  image-width: 17em # image width
 
 
 

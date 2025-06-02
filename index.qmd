@@ -1,15 +1,15 @@
 ---
 title: "Eliana Shandalov"
-image: selfie.png
-toc: false
+image: selfie.png # use this image on page
+toc: false # no table of contents
 about: 
-  template: trestles
-  image-shape: rectangle
-  image-width: 17em
-  links:
-    - text: LinkedIn
-      icon: linkedin
-      href: https://www.linkedin.com/in/eliana-shandalov-b223b5338
+  template: trestles # template for landing page
+  image-shape: rectangle # image is rectangle
+  image-width: 17em # image is this width
+  links: # add links to page
+    - text: LinkedIn # text on button
+      icon: linkedin # icon on button
+      href: https://www.linkedin.com/in/eliana-shandalov-b223b5338 # link that button leads to
     - text: GitHub
       icon: github
       href: https://github.com/eliana427/eliana427.github.io.git

@@ -2,9 +2,8 @@
 title: "Projects"
 format: html
 listing: 
-  contents: posts # this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page
-  type: grid # or `default` or `table`; each type has its own set of yaml options to include
-  sort: "date desc" # can also sort on more than one field
+  contents: posts # folder is included in github r project folder
+  type: grid # posts are listed in grid form, there are more options to choose from
+  sort: "date desc" # sorting by date, possible to sort by more than one field
   categories: true # allows you to sort posts by assigned categories 
 ---
-

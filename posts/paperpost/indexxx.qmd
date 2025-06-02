@@ -1,0 +1,24 @@
+---
+title: "Research Paper Sample"
+format: html 
+description: "This is a part the research paper that I wrote in Costa Rica, where I studied the abundance of parasites in bat blood."
+author:
+  - name: Eliana Shandalov
+    url: https://eliana427.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Student at UCSB, Environmental Studies program
+date: 06-01-2025
+categories: [Quarto, R, Research] # self-defined categories
+citation: 
+  url: https://eliana427.github.io/posts/paperpost/ 
+image: bat.jpeg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+# Research Paper - Inspiration and Summary
+
+When I was in Costa Rica, I studied the abundance of blood parasites present in bats from different research. I'm very interested in how diseases transfer from animal to human populations, which commonly happens by the way of bats because they are disease vectors. That means that they can carry the disease and spread it, but because of the unique features they evolved throughout time they themselves are not affected by the disease. Although I wasn't able to study the transfer of diseases from animals to humans, it was very fascinating to see how bats from different areas contain more or less parasites.
+
+I conducted the study by capturing bats via mist netting and butterfly nets (read paper for more information). Once I caught the bats, I pricked an accessible vein on their left foot with a needle to draw a little bit of blood. I collected the blood on a slide and made a thin blood smear, and the next day in the lab used Giemsa stain to make the sample more clear to view under the microscope. For each of my 18 samples, I carefully inspected each slide and counted the number of parasites.
+
+<a href="bat.pdf" target="_blank">View PDF in new tab</a>

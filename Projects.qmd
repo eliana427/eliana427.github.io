@@ -8,11 +8,3 @@ listing:
   categories: false # allows you to sort posts by assigned categories 
 toc: false
 ---
-
-::: red-block
-<p id="red-block-text">
-
-Words
-
-</p>
-:::

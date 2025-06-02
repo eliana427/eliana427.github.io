@@ -22,7 +22,3 @@ I love concerts. I listen to music a lot, and am really into EDM, particularly h
 I'm really lucky to have a wonderful support system. I'm very close with my high school friend group, and I see them as often as possible (first photo). My best friend is my roommate, and for one of her birthday gifts I got her a two person hoodie for us to wear (second photo). The third photo was a candid capture of us agreeing we're going to split the dessert in front of us. I live in a house with six girls including me and her, and we have some other friends that come over a lot (fourth and sixth photo). I am still really close with my study abroad friends (fifth photo), and I'm lucky that quite a few of them go to UCSB.
 
 ![Friends](friends1.jpeg){width="167"} ![liv](liv.jpg){width="96"} ![dessert](dessert.jpg){width="96"}![cowgirl](cowgirl.jpeg){width="146"} ![cr](cr.jpg){width="81"} ![hawaii](hawaii.jpeg){width="140"}
-
-```{r}
-
-```

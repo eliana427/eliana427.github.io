@@ -13,6 +13,7 @@ website:
       - Projects.qmd
       - me.qmd
       - resume.qmd
+      - posts.qmd
     
 format:
   html:

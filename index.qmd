@@ -8,10 +8,13 @@ about:
   image-width: 17em
   links:
     - text: LinkedIn
+      icon: linkedin
       href: https://www.linkedin.com/in/eliana-shandalov-b223b5338
     - text: GitHub
+      icon: github
       href: https://github.com/eliana427/eliana427.github.io.git
     - text: Email
+      icon: envelope
       href: mailto:elianashandalov@ucsb.edu
 ---
 

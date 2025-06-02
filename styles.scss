@@ -1,10 +1,12 @@
 touch styles.scss
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); // importing font
 
 // Colors
-$black: #000000;
+$black: #000000; // not functional
 
 // Base document colors
-$navbar-bg: $black; // navbar
+$navbar-bg: $black; // navbar, not functional
+
+// relied on yaml page and css page for editing rather than scss

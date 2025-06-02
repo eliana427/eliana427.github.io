@@ -1,24 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
     "section": "",
-    "text": "Traveling\nI love to travel. I have been able to go to a couple places in Europe with my family (camel photo from Israel), and my best friend and I went to Budapest (architecture photo with water), Vienna (architecture photo), Ios (Island in Greece), and London (horse statue photo) last summer. She is an international student from London, so I got to see where she’s from, which was very special. We plan on backpacking through Southeast Asia after we graduate college. I got to study abroad in Costa Rica during fall quarter (waterfall and water scenery photo), and had been there previously for spring break with some friends during the second year of college (zip lining photo), and this year for spring break I went to Hawaii (snorkeling photo), where one of my housemates lives.\n       \n\n\nConcerts\nI love concerts. I listen to music a lot, and am really into EDM, particularly house music and dub step. I love shows that have bright visuals and laser beam lights. I went to Sziget festival in Budapest (first photo), Reading in London (second photo), and saw Dom Dolla (third photo) last summer. I saw Excision in February (rainbow face photo), just recently went to Lightening in a Bottle festival (group photo), and I plan on going to Same Same but Different festival in September. I went to Outsidelands (last photo) in San Francisco a couple of years ago. I love music festivals and concerts because the community is so welcoming and friendly, and everyone loves to chat and make new friends. Seeing music live has to be one of the best things life has to offer.\n     \n\n\nFriends\nI’m really lucky to have a wonderful support system. I’m very close with my high school friend group, and I see them as often as possible (first photo). My best friend is my roommate, and for one of her birthday gifts I got her a two person hoodie for us to wear (second photo). The third photo was a candid capture of us agreeing we’re going to split the dessert in front of us. I live in a house with six girls including me and her, and we have some other friends that come over a lot (fourth and sixth photo). I am still really close with my study abroad friends (fifth photo), and I’m lucky that quite a few of them go to UCSB."
+    "text": "Coding Sample\n\n\n\nQuarto\n\n\nR\n\n\nCoding\n\n\n\nThis is a part of my code from my midterm in my ENVS 163DS class, where I recreated a graph.\n\n\n\nEliana Shandalov\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "Projects.html",
-    "href": "Projects.html",
-    "title": "Projects",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Eliana Shandalov",
     "section": "",
-    "text": "Words\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Resume"
+    "text": "Hello! My name is Eliana Shandalov, and I am a third year student as UCSB. My major is Environmental Studies (B.S.) and I am pursuing a minor in professional writing (scientific communication track). This summer, I will be interning at PG&E as the Electric Risk Management Intern. I graduated from Miramonte High School in Orinda, CA."
   },
   {
     "objectID": "me.html",
@@ -28,10 +21,38 @@
     "text": "Everything happens for a reason\nI believe that everything happens for a reason.\n\n\nOnly take to heart what is in my control\nThere is no reason to be upset about things beyond my own control\n\n\nMaybe they’re just having a bad day\nIf someone is mean to you, they might have something going on in their own life that caused that and it isn’t personal.\n\n\nEmbarrassment is a choice\nYou might as well laugh at yourself instead of feeling embarrassed."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Eliana Shandalov",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "Hello! My name is Eliana Shandalov, and I am a third year student as UCSB. My major is Environmental Studies (B.S.) and I am pursuing a minor in professional writing (scientific communication track). This summer, I will be interning at PG&E as the Electric Risk Management Intern. I graduated from Miramonte High School in Orinda, CA."
+    "text": "Resume"
+  },
+  {
+    "objectID": "posts/codingpost/indexx.html",
+    "href": "posts/codingpost/indexx.html",
+    "title": "Coding Sample",
+    "section": "",
+    "text": "In this chunk of code, I was recreating a graph from an example. The graph represents the total monthly rain fall (represented on the x-axis) categorized by year in Isla Vista. My code begins with referencing a cleaned data set, and I created a line graph using ggplot where I specified what variables I wanted on each of my axes, how I wanted my data to be grouped, and that I wanted each group to be a different color. I then changed the colors of each of the lines from the default to match the example image. I found the exact colors to use by searching up an R studio list of colors. I then edited the names of my axes and legend to make the graph clear, and added a title. To make the graph look more organized and pleasing to the eye, I removed the background noise including grid lines and axes ticks. I changed the placement of the legend to be placed inside the plot, and I changed the size and alignment of the title."
+  },
+  {
+    "objectID": "posts/codingpost/indexx.html#description",
+    "href": "posts/codingpost/indexx.html#description",
+    "title": "Coding Sample",
+    "section": "",
+    "text": "In this chunk of code, I was recreating a graph from an example. The graph represents the total monthly rain fall (represented on the x-axis) categorized by year in Isla Vista. My code begins with referencing a cleaned data set, and I created a line graph using ggplot where I specified what variables I wanted on each of my axes, how I wanted my data to be grouped, and that I wanted each group to be a different color. I then changed the colors of each of the lines from the default to match the example image. I found the exact colors to use by searching up an R studio list of colors. I then edited the names of my axes and legend to make the graph clear, and added a title. To make the graph look more organized and pleasing to the eye, I removed the background noise including grid lines and axes ticks. I changed the placement of the legend to be placed inside the plot, and I changed the size and alignment of the title."
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Traveling\nI love to travel. I have been able to go to a couple places in Europe with my family (camel photo from Israel), and my best friend and I went to Budapest (architecture photo with water), Vienna (architecture photo), Ios (Island in Greece), and London (horse statue photo) last summer. She is an international student from London, so I got to see where she’s from, which was very special. We plan on backpacking through Southeast Asia after we graduate college. I got to study abroad in Costa Rica during fall quarter (waterfall and water scenery photo), and had been there previously for spring break with some friends during the second year of college (zip lining photo), and this year for spring break I went to Hawaii (snorkeling photo), where one of my housemates lives.\n       \n\n\nConcerts\nI love concerts. I listen to music a lot, and am really into EDM, particularly house music and dub step. I love shows that have bright visuals and laser beam lights. I went to Sziget festival in Budapest (first photo), Reading in London (second photo), and saw Dom Dolla (third photo) last summer. I saw Excision in February (rainbow face photo), just recently went to Lightening in a Bottle festival (group photo), and I plan on going to Same Same but Different festival in September. I went to Outsidelands (last photo) in San Francisco a couple of years ago. I love music festivals and concerts because the community is so welcoming and friendly, and everyone loves to chat and make new friends. Seeing music live has to be one of the best things life has to offer.\n     \n\n\nFriends\nI’m really lucky to have a wonderful support system. I’m very close with my high school friend group, and I see them as often as possible (first photo). My best friend is my roommate, and for one of her birthday gifts I got her a two person hoodie for us to wear (second photo). The third photo was a candid capture of us agreeing we’re going to split the dessert in front of us. I live in a house with six girls including me and her, and we have some other friends that come over a lot (fourth and sixth photo). I am still really close with my study abroad friends (fifth photo), and I’m lucky that quite a few of them go to UCSB."
   }
 ]

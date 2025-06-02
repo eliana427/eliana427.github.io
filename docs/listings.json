@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/codingpost/indexx.html"
+    ]
+  },
+  {
     "listing": "/Projects.html",
     "items": []
   }
